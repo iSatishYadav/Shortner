@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shortner", "Shortner\Shortner.csproj", "{7CC15678-9539-42E2-BFEB-48C1824FDF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shortner.Tests", "Shortner.Tests\Shortner.Tests.csproj", "{E04CE327-4AE6-42F0-8B55-8BD3B2E16216}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B8AD87E3-42E6-4F14-AA2F-99B8AF8CA100}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CC15678-9539-42E2-BFEB-48C1824FDF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC15678-9539-42E2-BFEB-48C1824FDF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC15678-9539-42E2-BFEB-48C1824FDF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC15678-9539-42E2-BFEB-48C1824FDF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04CE327-4AE6-42F0-8B55-8BD3B2E16216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04CE327-4AE6-42F0-8B55-8BD3B2E16216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04CE327-4AE6-42F0-8B55-8BD3B2E16216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04CE327-4AE6-42F0-8B55-8BD3B2E16216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AD87E3-42E6-4F14-AA2F-99B8AF8CA100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AD87E3-42E6-4F14-AA2F-99B8AF8CA100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AD87E3-42E6-4F14-AA2F-99B8AF8CA100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AD87E3-42E6-4F14-AA2F-99B8AF8CA100}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A135957C-4E38-4370-ABF2-393A45D79C09}
+	EndGlobalSection
+EndGlobal

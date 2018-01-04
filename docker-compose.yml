@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  shortner:
+    image: shortner
+    build:
+      context: .\Shortner
+      dockerfile: Dockerfile
